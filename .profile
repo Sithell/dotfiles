@@ -1,1 +1,2 @@
-/home/sithell/.profile
+export EDITOR='vim'
+export VISUAL='vim'
