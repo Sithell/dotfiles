@@ -1,0 +1,1 @@
+/home/sithell/Scripts/config.sh

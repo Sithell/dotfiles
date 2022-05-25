@@ -1,0 +1,1 @@
+/home/sithell/.config/fish/functions/fish_prompt.fish
