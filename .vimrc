@@ -4,6 +4,7 @@ set shiftwidth=4
 set expandtab
 set mouse=a
 set visualbell
+set t_vb=
 set noerrorbells
 set number relativenumber
 set nu rnu
@@ -38,3 +39,8 @@ set langmap+=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMN
 set langmap+=фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz " Cyrillic layout in normal mode
 set langmap+=ЖжЭэХхЪъ;\:\;\"\'{[}]                                 " Cyrillic layout in normal mode
 
+nmap ; $ " Shift+4 with cyrillic layout
+nmap . /
+
+" Copy to system clipboard with Y
+vmap Y "+y<Esc>
