@@ -8,6 +8,7 @@ set t_vb=
 set noerrorbells
 set number relativenumber
 set nu rnu
+syntax on
 
 let g:XkbSwitchEnabled = 1
 
@@ -44,3 +45,4 @@ nmap . /
 
 " Copy to system clipboard with Y
 vmap Y "+y<Esc>
+
