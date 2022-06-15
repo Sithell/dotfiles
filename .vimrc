@@ -45,4 +45,5 @@ nmap . /
 
 " Copy to system clipboard with Y
 vmap Y "+y<Esc>
+vmap <C-c> "+y<Esc>"
 
